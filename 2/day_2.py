@@ -18,7 +18,7 @@ for i, line in enumerate(lines):
                 if not is_legal_amount(number, word):
                     flag = False
     if flag:
-        sum += i+1
+        sum += i + 1
 
 print(sum)
 
